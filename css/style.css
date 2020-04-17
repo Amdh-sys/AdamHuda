@@ -66,6 +66,20 @@ transform: translate(50px,0) rotate(-10deg);
     transform: translate(0,0);
 }
 
+
+
+.foto .thumbnail{
+    opacity: 0;
+    transform: translate(0, -40px);
+    transition: 0.5s;
+}
+
+.foto .thumbnail.muncul{
+    opacity: 1;
+    transform: translate(0,0);
+}
+
+
 .contact{
     min-height: 800px;
 }
